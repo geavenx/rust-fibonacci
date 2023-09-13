@@ -15,7 +15,7 @@ fn main() {
     match parsed_fib {
         Ok(fibo) => {
             let result = fibonacci(fibo);
-            println!("Fibonacci({}), = {}", fibo, result);
+            println!("Fibonacci({}) = {}", fibo, result);
         }
         Err(_) => println!("erro"),
     };
